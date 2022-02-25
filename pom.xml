@@ -28,7 +28,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>HelloJava</mainClass>
+              <mainClass>Menu</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -41,6 +41,14 @@
           <source>8</source> 
           <doclint>none</doclint>
         </configuration>
+        <executions>
+				  <execution>
+					  <id>attach-javadocs</id>
+					  <goals>
+						  <goal>jar</goal>
+					  </goals>
+				  </execution>
+			  </executions>
       </plugin>
     </plugins>
   </build>
